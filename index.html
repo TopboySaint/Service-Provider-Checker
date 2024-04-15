@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="shortcut icon" href="images/download-removebg-preview (1).png" type="image/x-icon">
+</head>
+
+<body class="bg-dar">
+    <div>
+        <input type="number" class="form-control w-25 d-inline mt-5 ms-5 shadow-none" id="mobileNumber">
+        <button class="btn btn-success" onclick="checkProvider()">Check</button>
+        <p class="alert alert-danger w-25 p-1 mt-2 ms-5 text-center" id="errorMsg">Enter a valid phone number</p>
+        <div id="showNetwork" class="border w-25 ms-5 text-center"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
