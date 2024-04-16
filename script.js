@@ -218,6 +218,8 @@ arrayOfNetworks = [
   }
 ];
 
+
+// mobileNumber.value = 234
 const checkProvider = () => {
   let phoneNumber = document.getElementById("mobileNumber").value;
   arrayOfNetworks.map((server) => {
@@ -227,7 +229,7 @@ const checkProvider = () => {
         console.log(server.network);
         showNetwork.innerHTML = `
         ${server.networkLogo}
-        ${server.network}: ${phoneNumber}`
+        <b>${server.network}: ${phoneNumber}</b>`
     }
   });
 };
