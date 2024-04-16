@@ -39,7 +39,79 @@ arrayOfNetworks = [
 
   {
     network: "MTN",
-    prefix: "0803",
+    prefix: "0806",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+
+  {
+    network: "MTN",
+    prefix: "0703",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+
+  {
+    network: "MTN",
+    prefix: "0706",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+  
+  {
+    network: "MTN",
+    prefix: "0813",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+  
+  {
+    network: "MTN",
+    prefix: "0816",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+  
+  {
+    network: "MTN",
+    prefix: "0810",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+  
+  {
+    network: "MTN",
+    prefix: "0814",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+
+  {
+    network: "MTN",
+    prefix: "0903",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+  
+  {
+    network: "MTN",
+    prefix: "0906",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+  
+  {
+    network: "MTN",
+    prefix: "0913",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+  
+  {
+    network: "MTN",
+    prefix: "0916",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+  
+  {
+    network: "MTN",
+    prefix: "0702",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+
+  {
+    network: "MTN",
+    prefix: "0704",
     networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
   },
 ];
