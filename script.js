@@ -176,10 +176,46 @@ arrayOfNetworks = [
   },
 
   {
-    network: "Airtel",
-    prefix: "0802",
-    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+    network: "Globacom",
+    prefix: "0805",
+    networkLogo: `<img src ="images/glologo.jpeg" width = "300"/>`
   },
+
+  {
+    network: "Globacom",
+    prefix: "0807",
+    networkLogo: `<img src ="images/glologo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Globacom",
+    prefix: "0705",
+    networkLogo: `<img src ="images/glologo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Globacom",
+    prefix: "0815",
+    networkLogo: `<img src ="images/glologo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Globacom",
+    prefix: "0811",
+    networkLogo: `<img src ="images/glologo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Globacom",
+    prefix: "0905",
+    networkLogo: `<img src ="images/glologo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Globacom",
+    prefix: "0915",
+    networkLogo: `<img src ="images/glologo.jpeg" width = "300"/>`
+  }
 ];
 
 const checkProvider = () => {
