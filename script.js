@@ -2,27 +2,45 @@ let arrayOfNetworks = [];
 
 arrayOfNetworks = [
   {
-    network: "9 Mobile",
-    prefix: "0709",
-    // networkLogo:
+    network: "9Mobile",
+    prefix: "0809",
+    networkLogo: `<img src ="images/etisalatlogo.jpeg"/>`
   },
 
   {
-    network: "9 Mobile",
+    network: "9Mobile",
     prefix: "0909",
-    // networkLogo:
+    networkLogo: `<img src ="images/etisalatlogo.jpeg"/>`
   },
 
   {
-    network: "9 Mobile",
+    network: "9Mobile",
     prefix: "0818",
-    // networkLogo:
+    networkLogo: `<img src ="images/etisalatlogo.jpeg"/>`
   },
 
   {
-    network: "9 Mobile",
-    prefix: "0916",
-    // networkLogo:
+    network: "9Mobile",
+    prefix: "0908",
+    networkLogo: `<img src ="images/etisalatlogo.jpeg"/>`
+  },
+
+  {
+    network: "9Mobile",
+    prefix: "0817",
+    networkLogo: `<img src ="images/etisalatlogo.jpeg"/>`
+  },
+
+  {
+    network: "MTN",
+    prefix: "0803",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
+  },
+
+  {
+    network: "MTN",
+    prefix: "0803",
+    networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
   },
 ];
 
@@ -34,6 +52,7 @@ const checkProvider = () => {
     }else if(phoneNumber.substring(0,4).includes(server.prefix)){
         console.log(server.network);
         showNetwork.innerHTML = `
+        ${server.networkLogo}
         ${server.network}: ${phoneNumber}`
     }
   });
