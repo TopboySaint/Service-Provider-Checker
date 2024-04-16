@@ -114,6 +114,72 @@ arrayOfNetworks = [
     prefix: "0704",
     networkLogo: `<img src ="images/mtnlogo.jpeg"/>`
   },
+
+  {
+    network: "Airtel",
+    prefix: "0802",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+
+  {
+    network: "Airtel",
+    prefix: "0808",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Airtel",
+    prefix: "0708",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Airtel",
+    prefix: "0812",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Airtel",
+    prefix: "0701",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Airtel",
+    prefix: "0902",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Airtel",
+    prefix: "0901",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Airtel",
+    prefix: "0904",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+  
+  {
+    network: "Airtel",
+    prefix: "0907",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+
+  {
+    network: "Airtel",
+    prefix: "0912",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
+
+  {
+    network: "Airtel",
+    prefix: "0802",
+    networkLogo: `<img src ="images/airtellogo.jpeg" width = "300"/>`
+  },
 ];
 
 const checkProvider = () => {
