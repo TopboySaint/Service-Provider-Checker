@@ -219,13 +219,13 @@ arrayOfNetworks = [
 ];
 
 
-// mobileNumber.value = 234
 const checkProvider = () => {
   let phoneNumber = document.getElementById("mobileNumber").value;
   arrayOfNetworks.map((server) => {
-    if (phoneNumber.length != 11 || phoneNumber == "") {
+    if (phoneNumber.length != 11 || phoneNumber.trim() == "") {
       document.getElementById("errorMsg").style.display = "block";
-    }else if(phoneNumber.substring(0,4).includes(server.prefix)){
+    }else if(phoneNumber.trim() != "" && phoneNumber.substring(0,4).includes(server.prefix)){
+      document.getElementById('errorMsg').style.display= "none"
         console.log(server.network);
         showNetwork.innerHTML = `
         ${server.networkLogo}
